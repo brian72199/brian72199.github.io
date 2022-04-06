@@ -1,0 +1,35 @@
+body{
+    width:100%;
+    height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic";
+}
+a{
+    text-transform: uppercase;
+    margin-right: 5px;
+    color: black !important;
+ }
+ .navbar-nav .active{
+    color: royalblue !important;
+ }
+ .navbar-nav a:hover{
+    border-radius: 5px;
+    background-color:rgba(223, 223, 223, 0.349);
+    transition: 0.5s;
+    color: black !important;
+ }
+ .big-text{
+     margin-bottom:10px;
+     font-size: 56px;
+     color: rgb(38, 68, 158);
+ }
+ .content{
+    height: 100%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+ }
+
+ 
